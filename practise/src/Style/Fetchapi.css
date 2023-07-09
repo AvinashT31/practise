@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fullpage{
+    border: 1px solid black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.fetchpage{
+    border: 1px solid black;
+    width: 18%;
+    height: 50%;
+    margin-top: 5%;
+}
+
+.fetchimg{
+    border: 1px solid black;
+    width: 100%;
+    height: 80%;
+}
+
+.fetchimg img{
+    width: 100%;
+    height: 100%;
+}
